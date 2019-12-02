@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: rgba(33, 33, 33, 0.9);
+  background-color: rgba(33, 33, 33, 0.699);
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,7 +126,7 @@ nav ul li ul li a {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
   display: block;
 }
 
@@ -138,7 +138,31 @@ nav ul li ul li a {
 .twinkling {
   background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: 40px;
   -webkit-animation: move-twink-back 200s linear infinite;
   animation: move-twink-back 200s linear infinite;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background-color: red;
+  }
+}
+
+.space {
+  z-index: 99;
+  height: 300px;
+  width: 500px;
+}
+
+.section1 {
+  width: 100%;
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
