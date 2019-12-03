@@ -68,6 +68,8 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  max-height: 160px;
+  overflow: auto;
 }
 
 nav ul li {
@@ -157,7 +159,7 @@ nav ul li ul li a {
 .circle1 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -168,7 +170,7 @@ nav ul li ul li a {
 .circle2 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -179,7 +181,7 @@ nav ul li ul li a {
 .circle3 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -190,7 +192,7 @@ nav ul li ul li a {
 .circle4 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -201,7 +203,7 @@ nav ul li ul li a {
 .circle5 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -212,7 +214,7 @@ nav ul li ul li a {
 .circle6 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -223,7 +225,7 @@ nav ul li ul li a {
 .circle7 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -234,7 +236,51 @@ nav ul li ul li a {
 .circle8 {
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle9 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle10 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle11 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle12 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -248,7 +294,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -271,14 +317,16 @@ p {
   height: 900px;
   display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 200px;
+      grid-template-rows: 200px;
 }
 
 #textbox {
   margin-left: 250px;
   margin-top: 100px;
-  background-color: black;
-  width: 400px;
-  height: 100px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,23 +336,23 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  opacity: 0.2;
   color: #fff;
-  font-size: 30px;
 }
 
 .container {
-  margin-left: 100px;
-  margin-top: 100px;
-  background-color: black;
+  margin-left: 160px;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1.5px 1.5px #be6b4d;
   color: #fff;
-  opacity: 0.2;
   width: 700px;
-  height: 400px;
+  height: 600px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
 }
 
 footer {
