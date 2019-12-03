@@ -171,7 +171,7 @@ body {
       grid-template-rows: 240px;
 }
 
-.ariespic {
+.tauruspic {
   height: 200px;
   width: 200px;
   position: relative;
@@ -201,4 +201,4 @@ footer {
   -webkit-box-shadow: 10px 10px 10px 10px;
           box-shadow: 10px 10px 10px 10px;
 }
-/*# sourceMappingURL=style_aries.css.map */
+/*# sourceMappingURL=style_taurus.css.map */
