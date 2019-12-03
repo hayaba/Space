@@ -28,7 +28,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 900px;
   display: grid;
   
 }
@@ -61,5 +61,8 @@ p {
 }
 
 footer{
-  
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to right, #1a2f40, #b6ccd7);
+  box-shadow: 0 0 5px 10px linear-gradient(to right, #1a2f40, #b6ccd7);
 }
