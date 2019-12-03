@@ -310,9 +310,9 @@ p {
 footer {
   width: 100%;
   height: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#1a2f40), to(#b6ccd7));
-  background-image: linear-gradient(to right, #1a2f40, #b6ccd7);
-  -webkit-box-shadow: 0 0 5px 10px linear-gradient(to right, #1a2f40, #b6ccd7);
-          box-shadow: 0 0 5px 10px linear-gradient(to right, #1a2f40, #b6ccd7);
+  background-image: -webkit-gradient(linear, left top, right top, from(#38160a), color-stop(#385567), to(#162431));
+  background-image: linear-gradient(to right, #38160a, #385567, #162431);
+  -webkit-box-shadow: 10px 10px 10px 10px;
+          box-shadow: 10px 10px 10px 10px;
 }
 /*# sourceMappingURL=style.css.map */
