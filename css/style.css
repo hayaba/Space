@@ -14,7 +14,7 @@ header {
 }
 
 #logo {
-  width: 180px;
+  width: 850px;
   font-size: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,6 +144,104 @@ nav ul li ul li a {
   animation: move-twink-back 200s linear infinite;
 }
 
+.box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle3 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle4 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle5 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle6 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle7 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
+.circle8 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  margin-top: 15px;
+}
+
 body {
   margin: 0;
   background-color: #fff;
@@ -156,6 +254,7 @@ h1 {
 
 p {
   font-size: 16px;
+  text-align: center;
 }
 
 .space {

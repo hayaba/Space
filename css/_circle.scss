@@ -1,0 +1,48 @@
+@mixin box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: grid;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 15px;
+    
+}
+
+
+.box{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.circle1{
+    @include box;
+}
+
+.circle2{
+    @include box;
+}
+
+.circle3{
+    @include box;
+}
+
+.circle4{
+    @include box;
+}
+
+.circle5{
+    @include box;
+}
+
+.circle6{
+    @include box;
+}
+
+.circle7{
+    @include box;
+}
+
+.circle8{
+    @include box;
+}
