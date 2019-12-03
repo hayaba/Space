@@ -1,0 +1,121 @@
+@import './header';
+@import './stars';
+
+@mixin stars {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+    background-repeat: no-repeat;
+
+}
+
+body{
+    margin: 0;
+}
+
+
+.section1{
+    background-image: url(../img/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: grid;
+}
+
+.zodiac{
+    margin-left: 160px;
+    margin-top: 80px;
+    height: 600px;
+    width: 700px;
+    background-color: rgba(0,0,0,0.5);
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 240px;
+
+}
+
+.ariespic{
+    @include stars();
+    background-image: url(../img/1.png);
+   
+}
+
+.tauruspic{
+    @include stars();
+    background-image: url(../img/2.png);
+}
+
+.geminipic{
+    @include stars();
+    background-image: url(../img/3.png);
+}
+
+.cancerpic{
+    @include stars();
+    background-image: url(../img/4.png);
+}
+
+.leopic{
+    @include stars();
+    background-image: url(../img/5.png);
+}
+
+.virgopic{
+    @include stars();
+    background-image: url(../img/6.png);
+}
+
+.librapic{
+    @include stars();
+    background-image: url(../img/7.png);
+}
+
+.scorpiopic{
+    @include stars();
+    background-image: url(../img/8.png);
+}
+
+.saggitarius{
+    @include stars();
+    background-image: url(../img/9.png);
+}
+
+.capricornpic{
+    @include stars();
+    background-image: url(../img/10.png);
+}
+
+.aquariuspic{
+    @include stars();
+    background-image: url(../img/11.png);
+}
+
+.piscespic{
+    @include stars();
+    background-image: url(../img/12.png);
+}
+
+
+
+.zodiactext{
+    width: 100%;
+    overflow: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, #38160a, #385567, #162431);
+    box-shadow: 10px 10px 10px 10px;
+  }

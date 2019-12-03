@@ -177,12 +177,190 @@ body {
   position: relative;
   top: 20px;
   left: 250px;
-  background-color: #fff;
+  background-color: black;
   margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/1.png);
+}
+
+.tauruspic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/2.png);
+}
+
+.geminipic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/3.png);
+}
+
+.cancerpic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/4.png);
+}
+
+.leopic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/5.png);
+}
+
+.virgopic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/6.png);
+}
+
+.librapic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/7.png);
+}
+
+.scorpiopic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/8.png);
+}
+
+.saggitarius {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/9.png);
+}
+
+.capricornpic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/10.png);
+}
+
+.aquariuspic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/11.png);
+}
+
+.piscespic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  background-color: black;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/12.png);
 }
 
 .zodiactext {
@@ -201,4 +379,4 @@ footer {
   -webkit-box-shadow: 10px 10px 10px 10px;
           box-shadow: 10px 10px 10px 10px;
 }
-/*# sourceMappingURL=style_aries.css.map */
+/*# sourceMappingURL=style_zodiac.css.map */

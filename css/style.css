@@ -157,133 +157,169 @@ nav ul li ul li a {
 .circle1 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/1.png);
 }
 
 .circle2 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/2.png);
 }
 
 .circle3 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/3.png);
 }
 
 .circle4 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/4.png);
 }
 
 .circle5 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/5.png);
 }
 
 .circle6 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/6.png);
 }
 
 .circle7 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/7.png);
 }
 
 .circle8 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/8.png);
 }
 
 .circle9 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/9.png);
 }
 
 .circle10 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/10.png);
 }
 
 .circle11 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/11.png);
 }
 
 .circle12 {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: black;
   display: -ms-grid;
   display: grid;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+          clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   margin-top: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/12.png);
 }
 
 body {
