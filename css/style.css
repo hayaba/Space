@@ -178,15 +178,18 @@ body {
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  margin-top: 100px;
+  margin-top: 50px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  opacity: 0.6;
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
 }
 
 .sky-container:hover {
-  opacity: 0.4;
-  -webkit-box-shadow: 2px 4px 4px #0e0905;
-          box-shadow: 2px 4px 4px #0e0905;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  opacity: 1;
 }
 
 .border {
