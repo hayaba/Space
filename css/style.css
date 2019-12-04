@@ -178,13 +178,13 @@ body {
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  margin-top: -300px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .sky-container:hover {
-  margin-top: 50px;
+  -webkit-box-shadow: 8px 8px 4px #0e0905;
+          box-shadow: 8px 8px 4px #0e0905;
 }
 
 .border {
@@ -193,8 +193,6 @@ body {
   position: absolute;
   border: 5px solid #fff;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 3px 2px #d6d6d6;
-          box-shadow: 0 0 3px 2px #d6d6d6;
   z-index: 100;
 }
 
