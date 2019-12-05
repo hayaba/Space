@@ -158,6 +158,23 @@ body {
   display: grid;
 }
 
+.container {
+  margin-left: 160px;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1.5px 1.5px #be6b4d;
+  color: #fff;
+  width: 700px;
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+  border-radius: 25px;
+}
+
 .zodiac {
   margin-left: 160px;
   margin-top: 80px;
