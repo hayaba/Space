@@ -96,6 +96,15 @@ nav ul li ul li a {
   padding: 7px 40px 10px 7px;
 }
 
+footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#38160a), color-stop(#385567), to(#162431));
+  background-image: linear-gradient(to right, #38160a, #385567, #162431);
+  -webkit-box-shadow: 10px 10px 10px 10px;
+          box-shadow: 10px 10px 10px 10px;
+}
+
 @-webkit-keyframes move-twink-back {
   from {
     background-position: 0 0;
@@ -422,14 +431,5 @@ p {
   -ms-grid-rows: 200px 200px 200px;
       grid-template-rows: 200px 200px 200px;
   border-radius: 25px;
-}
-
-footer {
-  width: 100%;
-  height: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#38160a), color-stop(#385567), to(#162431));
-  background-image: linear-gradient(to right, #38160a, #385567, #162431);
-  -webkit-box-shadow: 10px 10px 10px 10px;
-          box-shadow: 10px 10px 10px 10px;
 }
 /*# sourceMappingURL=style_home.css.map */
