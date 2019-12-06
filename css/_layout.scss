@@ -93,4 +93,25 @@ footer{
     height: 200px;
     background-image: linear-gradient(to right, #38160a, #385567, #162431);
     box-shadow: 10px 10px 10px 10px;
-  }
+}
+
+.social{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 900px 100px 100px 100px 100px 100px;
+    line-height: 80px;
+    margin-left: 0px;
+
+}
+
+.links{
+    margin-left: 50px;
+    font-size: 40px;
+    transition: 0.9s;
+}
+
+.links:hover{
+    filter: grayscale(100%) brightness(70%) contrast(0.9);
+    transform: scale(1.5);
+}
