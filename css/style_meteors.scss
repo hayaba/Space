@@ -59,11 +59,13 @@ body{
 .picture1{
     background-image: url(../img/Asteroid-in-space-780x405.jpg);
     background-size: cover;
-    transition: 0.3s
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+    transition: all .5s ease-in-out;
 }
 
 .picture1:hover{
-    scale: 2;
+    transform: scale(1.1);
 }
 
 footer{
