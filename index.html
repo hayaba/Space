@@ -5,33 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="5; URL=home.html">
+    <!-- <meta http-equiv="refresh" content="2; URL=home.html"> -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="stars"></div>
-        <div class="twinkling">
-            <div id="logo"> LOGO</div>
-
-        </div>
+     
     </header>
     <main>
-        <a href="home.html">
-            <div class="sky-container">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-
-
-                <div class="border"></div>
+            <div class="stars"></div>
+            <div class="twinkling">
+               
+    
             </div>
-    </main>
+        <div id="bgst">
+            <a href="home.html">
+                <div class="sky-container">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
 
+
+                    <div class="border"></div>
+                </div>
+            </a>
+        </div>
+        <h1>Next Meteor Shower</h1>
+        <h2>Lyrids</h2>
+        <p id="demo"></p>
+    </main>
+    <script>
+        var countDownDate = new Date("Apr 21, 2020 15:37:25").getTime();
+
+        var x = setInterval(function () {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 </body>
 
 </html>
