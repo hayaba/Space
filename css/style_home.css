@@ -493,10 +493,28 @@ p {
           justify-content: center;
 }
 
+.stars {
+  background: black url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index: -999;
+}
+
+.twinkling {
+  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index: -99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: 40px;
+}
+
 .col {
   width: 400px;
   height: 400px;
-  margin: 20px;
+  margin-top: 375px;
+  margin-left: 200px;
   background-color: #fff;
   -webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
