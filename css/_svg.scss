@@ -1,10 +1,9 @@
 
 #bgst{
   background-image: url(../svg/bgstars.svg);
-}
-
-svg{
-  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;  
+  justify-content: center;
 }
 
 .st0{fill:none;stroke:#0081B0;stroke-width:2;stroke-miterlimit:10;}
