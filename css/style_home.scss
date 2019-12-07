@@ -42,7 +42,8 @@ p {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border-bottom: solid white;
+  border-bottom: double white;
+  border-top: double white;
 }
 
 .dipper{
@@ -87,6 +88,7 @@ justify-content: center;
   height: 200px;
   border-top: double;
   border-bottom: double;
+  line-height: 35px;
 }
 
 .latest{

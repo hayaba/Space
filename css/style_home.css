@@ -471,7 +471,8 @@ p {
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
-  border-bottom: solid white;
+  border-bottom: double white;
+  border-top: double white;
 }
 
 .dipper {
@@ -526,6 +527,7 @@ p {
   height: 200px;
   border-top: double;
   border-bottom: double;
+  line-height: 35px;
 }
 
 .latest {
