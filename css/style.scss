@@ -54,7 +54,12 @@ p {
     border-radius: 50%;
     transform: rotate(45deg);
     margin-top: 50px;
-   
+    opacity: 0.5;
+    transition: 0,7s;
+}
+
+.sky-container:hover{
+    opacity: 1;
 }
 
 .border {
