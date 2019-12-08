@@ -209,7 +209,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/1.png);
+  background-image: url(../img/aries.png);
 }
 
 .circle2 {
@@ -225,7 +225,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/2.png);
+  background-image: url(../img/taurus.png);
 }
 
 .circle3 {
@@ -241,7 +241,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/3.png);
+  background-image: url(../img/gemini.png);
 }
 
 .circle4 {
@@ -257,7 +257,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/4.png);
+  background-image: url(../img/cancer.png);
 }
 
 .circle5 {
@@ -273,7 +273,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/5.png);
+  background-image: url(../img/leo.png);
 }
 
 .circle6 {
@@ -289,7 +289,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/6.png);
+  background-image: url(../img/virgo.png);
 }
 
 .circle7 {
@@ -305,7 +305,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/7.png);
+  background-image: url(../img/libra.png);
 }
 
 .circle8 {
@@ -321,7 +321,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/8.png);
+  background-image: url(../img/scorpio.png);
 }
 
 .circle9 {
@@ -337,7 +337,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/9.png);
+  background-image: url(../img/sagittarius.png);
 }
 
 .circle10 {
@@ -353,7 +353,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/10.png);
+  background-image: url(../img/capricorn.png);
 }
 
 .circle11 {
@@ -369,7 +369,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/11.png);
+  background-image: url(../img/aquarius.png);
 }
 
 .circle12 {
@@ -385,7 +385,7 @@ footer {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0.6;
-  background-image: url(../img/12.png);
+  background-image: url(../img/pisces.png);
 }
 
 #bgst {
