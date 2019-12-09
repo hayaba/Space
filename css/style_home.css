@@ -129,8 +129,8 @@ nav ul li ul li a {
 footer {
   width: 100%;
   height: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#38160a), color-stop(#385567), to(#162431));
-  background-image: linear-gradient(to right, #38160a, #385567, #162431);
+  background-image: -webkit-gradient(linear, left top, right top, from(#9d6a49), color-stop(#bdaca8), to(#252530));
+  background-image: linear-gradient(to right, #9d6a49, #bdaca8, #252530);
   -webkit-box-shadow: 10px 10px 10px 10px;
           box-shadow: 10px 10px 10px 10px;
 }
