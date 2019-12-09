@@ -11,8 +11,8 @@ header {
           align-items: center;
 }
 
-#logo {
-  width: 700px;
+.logo {
+  width: 70px;
   font-size: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,7 +235,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/aries.png);
 }
 
@@ -249,7 +249,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/taurus.png;);
 }
 
@@ -263,7 +263,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/gemini.png);
 }
 
@@ -277,7 +277,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/cancer.png);
 }
 
@@ -291,7 +291,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/leo.png);
 }
 
@@ -305,7 +305,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/virgo.png);
 }
 
@@ -319,7 +319,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/libra.png);
 }
 
@@ -333,7 +333,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/scorpio.png);
 }
 
@@ -347,7 +347,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/sagittarius.png);
 }
 
@@ -361,7 +361,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/capricorn.png);
 }
 
@@ -375,7 +375,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/aquarius.png);
 }
 
@@ -389,7 +389,7 @@ body {
   margin-top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #fff;
+  border-radius: 10px;
   background-image: url(../img/pisces.png);
 }
 

@@ -11,8 +11,8 @@ header {
           align-items: center;
 }
 
-#logo {
-  width: 700px;
+.logo {
+  width: 70px;
   font-size: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
