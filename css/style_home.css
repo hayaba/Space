@@ -1,3 +1,17 @@
+p {
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+}
+
 header {
   position: fixed;
   background-color: rgba(33, 33, 33, 0.699);
@@ -104,10 +118,7 @@ nav ul li ul li a {
   height: 900px;
   display: -ms-grid;
   display: grid;
-  margin-top: -40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-top: -50px;
 }
 
 .container {
@@ -454,42 +465,5 @@ footer {
 
 .constellation:hover {
   fill: #afaf9f;
-}
-
-body {
-  margin: 0;
-  background-color: black;
-}
-
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 300px 450px 300px;
-      grid-template-rows: 300px 450px 300px;
-  overflow: auto;
-}
-
-h1 {
-  font-size: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-h3 {
-  line-height: 80px;
-  font-size: 80px;
-  font-family: 'Sulphur Point', sans-serif;
-  color: white;
-  border: 1px solid;
-  padding: 10px;
-  -webkit-box-shadow: 5px 10px #888888;
-          box-shadow: 5px 10px #888888;
-  width: 500px;
-  height: 150px;
-}
-
-p {
-  font-size: 16px;
-  text-align: center;
 }
 /*# sourceMappingURL=style_home.css.map */

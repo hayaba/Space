@@ -1,5 +1,6 @@
 @import './layout';
 @import './stars';
+@import './variables';
 
 @mixin stars {
     height: 200px;
@@ -12,10 +13,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-}
-
-body{
-    margin: 0;
 }
 
 .zodiac{
@@ -37,7 +34,7 @@ body{
 
 .tauruspic{
     @include stars();
-    background-image: url(../img/taurus.png;)
+    background-image: url(../img/taurus.png);
 }
 
 .geminipic{
