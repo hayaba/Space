@@ -360,14 +360,15 @@ footer {
 }
 
 .container_m {
-  margin-top: 30px;
+  margin-top: -120px;
   background-color: rgba(0, 0, 0, 0.2);
   text-shadow: 1.5px 1.5px #be6b4d;
   color: #fff;
-  width: 700px;
-  height: 650px;
+  width: 800px;
+  height: 500px;
   display: -ms-grid;
   display: grid;
+  border-style: solid;
 }
 
 .svgpic {
@@ -389,21 +390,5 @@ footer {
 
 .atmospher:hover {
   fill: red;
-}
-
-.container:hover > .tracciati {
-  opacity: 0.25;
-}
-
-.container:hover > .tracciati:hover {
-  opacity: 1;
-}
-
-.percentuali {
-  opacity: 0;
-}
-
-.tracciati:hover + .percentuali {
-  opacity: 1;
 }
 /*# sourceMappingURL=style_meteors.css.map */
