@@ -3,7 +3,7 @@
 
 .container_us{
     margin-top: 30px;
-    background-color: rgba(#000000, 0.2);
+    background-color: rgba(#000000, 0.5);
     text-shadow: 1.5px 1.5px $second;
     color: #fff;
     width: 1200px;
@@ -38,7 +38,7 @@ label {
 }
   
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #89685C;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -48,7 +48,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #252530;
 }
   
 .container_form {
@@ -68,8 +68,7 @@ input[type=submit]:hover {
     margin-top: 6px;
 }
   
-  
-/* Clear floats after the columns */
+    
 .row:after {
     content: "";
     display: table;
@@ -77,10 +76,3 @@ input[type=submit]:hover {
 }
   
   
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-}

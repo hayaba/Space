@@ -46,6 +46,119 @@
   animation: move-twink-back 200s linear infinite;
 }
 
+.st0 {
+  fill: #F7F6F5;
+}
+
+.st1 {
+  fill: #252530;
+}
+
+.st2 {
+  fill: #CCCACA;
+}
+
+.st3 {
+  fill: none;
+  stroke: #242730;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #492616;
+}
+
+.st5 {
+  opacity: 0.89;
+  fill: #89685C;
+}
+
+.st6 {
+  opacity: 0.58;
+  fill: #89685C;
+}
+
+.st7 {
+  fill: #89685C;
+}
+
+.st8 {
+  opacity: 0.55;
+  fill: #53443E;
+}
+
+.st9 {
+  opacity: 0.92;
+  fill: #89685C;
+}
+
+.st10 {
+  fill: #53443E;
+}
+
+.st11 {
+  opacity: 0.63;
+  fill: #53443E;
+}
+
+.st12 {
+  opacity: 0.45;
+  fill: #89685C;
+}
+
+.st13 {
+  fill: #492618;
+}
+
+.st14 {
+  fill: #492F22;
+}
+
+.st15 {
+  fill: #6E5144;
+}
+
+.st16 {
+  fill: #9D6A49;
+}
+
+.st17 {
+  fill: #9E6C4A;
+}
+
+.st18 {
+  fill: #B2876E;
+}
+
+.st19 {
+  fill: #BDACA8;
+}
+
+.st20 {
+  fill: #DFCECF;
+}
+
+.st21 {
+  fill: #CDC3C7;
+}
+
+.st22 {
+  opacity: 0.29;
+  fill: #D1C9C5;
+}
+
+.st23 {
+  fill: none;
+}
+
+.st24 {
+  fill: #D1C9C5;
+}
+
+.st25 {
+  fill: #492617;
+}
+
 p {
   font-size: 16px;
   color: white;
@@ -54,6 +167,7 @@ p {
 h1 {
   font-size: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {

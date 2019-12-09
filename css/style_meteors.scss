@@ -46,3 +46,20 @@
 .atmospher:hover{
     fill:red;
 }
+
+.container:hover > .tracciati {
+
+    opacity: 0.25;
+  
+  }
+  .container:hover > .tracciati:hover {
+      opacity: 1;
+  }
+  
+  .percentuali {
+    opacity: 0;
+  }
+  
+  .tracciati:hover + .percentuali {
+    opacity: 1;
+  }
