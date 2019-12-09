@@ -96,6 +96,36 @@ nav ul li ul li a {
   padding: 7px 40px 10px 7px;
 }
 
+.section1 {
+  background-image: url(../svg/astroitsbelt.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  display: -ms-grid;
+  display: grid;
+  margin-top: -40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1.5px 1.5px #be6b4d;
+  color: #fff;
+  width: 700px;
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+  border-radius: 25px;
+}
+
 footer {
   width: 100%;
   height: 200px;
@@ -182,37 +212,9 @@ body {
   margin: 0;
 }
 
-.section1 {
-  background-image: url(../img/section1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 900px;
-  display: -ms-grid;
-  display: grid;
-}
-
-.container {
-  margin-left: 160px;
-  margin-top: 80px;
-  background-color: rgba(0, 0, 0, 0.2);
-  text-shadow: 1.5px 1.5px #be6b4d;
-  color: #fff;
-  width: 700px;
-  height: 600px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 200px 200px 200px;
-      grid-template-rows: 200px 200px 200px;
-  border-radius: 25px;
-}
-
 .zodiac {
-  margin-left: 160px;
   margin-top: 80px;
-  height: 600px;
+  height: 750px;
   width: 700px;
   background-color: rgba(0, 0, 0, 0.5);
   display: -ms-grid;

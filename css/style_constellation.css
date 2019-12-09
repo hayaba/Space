@@ -96,6 +96,36 @@ nav ul li ul li a {
   padding: 7px 40px 10px 7px;
 }
 
+.section1 {
+  background-image: url(../svg/astroitsbelt.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  display: -ms-grid;
+  display: grid;
+  margin-top: -40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1.5px 1.5px #be6b4d;
+  color: #fff;
+  width: 700px;
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+  border-radius: 25px;
+}
+
 footer {
   width: 100%;
   height: 200px;
@@ -208,7 +238,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/aries.png);
 }
 
@@ -224,7 +254,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/taurus.png);
 }
 
@@ -240,7 +270,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/gemini.png);
 }
 
@@ -256,7 +286,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/cancer.png);
 }
 
@@ -272,7 +302,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/leo.png);
 }
 
@@ -288,7 +318,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/virgo.png);
 }
 
@@ -304,7 +334,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/libra.png);
 }
 
@@ -320,7 +350,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/scorpio.png);
 }
 
@@ -336,7 +366,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/sagittarius.png);
 }
 
@@ -352,7 +382,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/capricorn.png);
 }
 
@@ -368,7 +398,7 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/aquarius.png);
 }
 
@@ -384,13 +414,13 @@ footer {
   background-repeat: no-repeat;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  opacity: 0.6;
+  opacity: 0.7;
   background-image: url(../img/pisces.png);
 }
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #252530;
 }
 
 h1 {
@@ -409,23 +439,9 @@ p {
   width: 500px;
 }
 
-.section1 {
-  background-image: url(../img/section1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 900px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 200px;
-      grid-template-rows: 200px;
-}
-
 #textbox {
-  margin-left: 250px;
   margin-top: 100px;
   background-color: rgba(0, 0, 0, 0.2);
-  width: 500px;
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,7 +458,6 @@ p {
 }
 
 .container {
-  margin-left: 160px;
   margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.2);
   text-shadow: 1.5px 1.5px #be6b4d;
