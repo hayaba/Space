@@ -277,9 +277,20 @@ svg{
     height: 200px;
 }
 
- .rock:hover ~ .shake{
-    animation: shake 0.9s;
-    animation-iteration-count: infinite;
+.meteoroid{
+    display: none;
+}
+
+.rock:hover ~ .meteoroid {
+    display: block;
+}
+
+#earth_green {
+    display: none;
+}
+    
+#Meteorite_on_Earth:hover~ #earth_green {
+    display: block;
 }
 
 @keyframes shake {
