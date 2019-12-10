@@ -145,8 +145,7 @@ header {
 }
 
 .logo {
-  width: 70px;
-  font-size: 2em;
+  width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

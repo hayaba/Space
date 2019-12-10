@@ -145,8 +145,7 @@ header {
 }
 
 .logo {
-  width: 70px;
-  font-size: 2em;
+  width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,7 +680,7 @@ h2 {
 }
 
 .section_c {
-  background-image: url(../svg/astroitsbelt.svg);
+  background-image: url(../svg/astroitsbeltp.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
