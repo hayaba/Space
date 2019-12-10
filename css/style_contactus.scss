@@ -1,13 +1,7 @@
 @import './layout';
 @import './stars';
 
-.container_us{
-    margin-top: 30px;
-    background-color: rgba(#000000, 0.5);
-    text-shadow: 1.5px 1.5px $second;
-    color: #fff;
-    width: 1200px;
-    height: 650px;
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;

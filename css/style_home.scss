@@ -2,29 +2,12 @@
 @import './stars';
 @import './variables';
 
-.home_container {
-    margin-top: 100px;
-    display: grid;
-    grid-template-rows: 10px 500px;
-    
-}
 
 .home {
+    margin-top: -400px;
     display: flex;
-    margin-top: 100px;
     justify-content: center;
 }
-
-#textbox_og {
-    background-color: rgba(#000000, 0.4);
-    width: 1200px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: 20px;
-  }
 
 .truestar {
     width: 400px;
