@@ -281,16 +281,30 @@ svg{
     display: none;
 }
 
+.rock:hover ~ .tekst{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
 
 .rock:hover ~ .meteoroid {
     display: block;
 }
-
+/* 
 #earth_green {
     display: none;
 }
     
 #Meteorite_on_Earth:hover~ #earth_green {
+    display: block;
+}
+ */
+
+
+#Meteorite_on_Earth {
+    display: none;
+}
+
+#earth_green:hover ~ #Meteorite_on_Earth {
     display: block;
 }
 

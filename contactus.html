@@ -2,115 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style_contactus.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style_contactus.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <div class="stars"></div>
-        <div class="twinkling">
-            <a href="home.html">
-                <img class="logo" src="svg/logoorange.svg" alt="">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="constellation.html">Constellation</a>
-                        <ul>
-                            <li>
-                                <a href="aries.html">ARIES</a>
-                                <a href="taurus.html">TAURUS</a>
-                                <a href="gemini.html">GEMINI</a>
-                                <a href="cancer.html">CANCER</a>
-                                <a href="leo.html">LEO</a>
-                                <a href="virgo.html">VIRGO</a>
-                                <a href="libra.html">LIBRA</a>
-                                <a href="scorpio.html">SCORPIO</a>
-                                <a href="sagittarius.html">SAGITTARIUS</a>
-                                <a href="capricorn.html">CAPRICORN</a>
-                                <a href="aquarius.html">AQUARIUS</a>
-                                <a href="pisces.html">PISCES</a>
-                            </li>
-                        </ul>
-                    </li>
+  <header>
+    <div class="stars"></div>
+    <div class="twinkling">
+      <a href="home.html">
+        <img class="logo" src="svg/logoorange.svg" alt="">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="meteors.html">METEORS</a>
+            <ul>
+              <li>
+                <a href="asteroid.html">ASTEROID</a>
+                <a href="">METEOROID</a>
+                <a href="">METEORITE</a>
+                <a href="">COMET</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="constellation.html">Constellation</a>
+        </ul>
 
-                    <li><a href="meteors.html">METEORS</a>
-                        <ul>
-                            <li>
-                                <a href="asteroid.html">ASTEROID</a>
-                                <a href="">METEOROID</a>
-                                <a href="">METEORITE</a>
-                                <a href="">COMET</a>
-                            </li>
-                        </ul>
-                    </li>
+        <li><a href="contactus.html">Contact Us</a>
+        </li>
 
-                    <li><a href="contactus.html">Contact Us</a>
-                    </li>
-
-            </nav>
+      </nav>
 
 
-        </div>
-    </header> 
-    <Main>
-        <div class="background">
-            <div class="container">
-                <div id="question"></div>
-                <div class="container_form">
-                    <form action="/action_page.php">
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="fname"></label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="fname" name="name" placeholder="Full Name..">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="lname"></label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="lname" name="email" placeholder="Email..">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="country"></label>
-                        </div>
-                        <div class="col-75">
-                          <select id="subject" name="subject">
-                            <option value="australia">Subject</option>
-                            <option value="astronomy">Astronomy</option>
-                            <option value="physical science">Physical science</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="subject"></label>
-                        </div>
-                        <div class="col-75">
-                          <textarea id="subject" name="subject" placeholder="Messenge.." style="height:200px"></textarea>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <input type="submit" value="Submit">
-                      </div>
-                    </form>
-                  </div>
+    </div>
+  </header>
+  <Main>
+    <div class="background">
+      <div class="container">
+        <div id="question"></div>
+        <div class="container_form">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname"></label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="name" placeholder="Full Name..">
+              </div>
             </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname"></label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="email" placeholder="Email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country"></label>
+              </div>
+              <div class="col-75">
+                <select id="subject" name="subject">
+                  <option value="australia">Subject</option>
+                  <option value="astronomy">Astronomy</option>
+                  <option value="physical science">Physical science</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject"></label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Messenge.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
         </div>
+      </div>
+    </div>
 
-    </Main>
-    <footer>
-        <div class="links"></div>
-        <div class="about"></div>
-    </footer>
+  </Main>
+  <footer>
+    <div class="links"></div>
+    <div class="about"></div>
+  </footer>
 </body>
 
 </html>
