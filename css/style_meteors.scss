@@ -281,23 +281,14 @@ svg{
     display: none;
 }
 
-.rock:hover ~ .tekst{
-    animation: shake 0.5s;
+.tekst:hover ~ .rock{
+    animation: shake 2s;
     animation-iteration-count: infinite;
 }
 
 .rock:hover ~ .meteoroid {
     display: block;
 }
-/* 
-#earth_green {
-    display: none;
-}
-    
-#Meteorite_on_Earth:hover~ #earth_green {
-    display: block;
-}
- */
 
 
 #Meteorite_on_Earth {
@@ -306,6 +297,11 @@ svg{
 
 #earth_green:hover ~ #Meteorite_on_Earth {
     display: block;
+}
+
+
+#meteorite{
+    animation: move 5s infinite;
 }
 
 @keyframes shake {
@@ -320,4 +316,9 @@ svg{
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
 }
