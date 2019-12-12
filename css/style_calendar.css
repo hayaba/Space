@@ -784,33 +784,32 @@ h2 {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 300px;
-      grid-template-rows: 300px;
+  -ms-grid-rows: 60px 40px;
+      grid-template-rows: 60px 40px;
 }
 
-svg {
-  position: block;
-  margin-left: 500px;
-  margin-top: -700px;
-  width: 150%;
+.date {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 3fr 2fr;
+      grid-template-columns: 2fr 2fr 3fr 2fr;
+  padding-left: 15px;
 }
 
-#meteoroid {
-  width: 180%;
+.content {
+  background-color: rgba(33, 33, 33, 0.699);
+  height: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 3fr 2fr;
+      grid-template-columns: 2fr 2fr 3fr 2fr;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-style: 0,4px solid;
+  padding-left: 15px;
 }
 
-.picturebox {
-  background-image: url(../img/Asteroid-in-space-780x405.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 80% 0;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom: solid;
+.content:hover {
+  background-color: #be6b4d;
 }
-
-.meteortext {
-  margin: 10px 20px;
-  text-align: justify;
-}
-/*# sourceMappingURL=style_submeteors.css.map */
+/*# sourceMappingURL=style_calendar.css.map */

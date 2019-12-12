@@ -1,0 +1,31 @@
+@import './layout';
+@import './stars';
+@import './variables';
+
+
+.container{
+    display: grid;
+    grid-template-rows: 60px 40px;
+}
+
+
+.date{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 2fr;
+    padding-left: 15px;
+}
+
+
+.content{
+    background-color: rgba(33, 33, 33, 0.699);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 2fr;
+    align-content: center;
+    border-style: 0,4px solid;
+    padding-left: 15px;
+}
+
+.content:hover{
+    background-color: $second;
+}

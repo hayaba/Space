@@ -274,10 +274,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1;
-}
-
 body {
   margin: 0;
 }
@@ -785,10 +781,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1;
-}
-
 .container {
   display: -ms-grid;
   display: grid;
@@ -852,5 +844,9 @@ h3 {
       align-content: center;
   border-style: 0,4px solid;
   padding-left: 15px;
+}
+
+.content:hover {
+  background-color: #be6b4d;
 }
 /*# sourceMappingURL=style_forum.css.map */

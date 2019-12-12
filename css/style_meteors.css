@@ -274,10 +274,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1;
-}
-
 body {
   margin: 0;
 }
@@ -785,10 +781,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1;
-}
-
 .st0 {
   fill: #252530;
 }
@@ -1065,6 +1057,10 @@ h3 {
 
 svg {
   width: auto;
+}
+
+.tekst:hover {
+  fill: #be6b4d;
 }
 
 .description {

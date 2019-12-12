@@ -274,10 +274,6 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1;
-}
-
 body {
   margin: 0;
 }
@@ -555,7 +551,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #252530;
+  background-color: #be6b4d;
 }
 
 .container_form {
