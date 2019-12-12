@@ -801,9 +801,13 @@ body {
 }
 
 svg {
-  margin-left: 340px;
-  margin-top: -450px;
+  margin-left: 300px;
+  margin-top: -350px;
   width: 150%;
+}
+
+#meteoroid {
+  width: 180%;
 }
 
 .picturebox {
@@ -816,7 +820,7 @@ svg {
   border-bottom: solid;
 }
 
-.asteroidtext {
+.meteortext {
   margin: 10px 20px;
   text-align: justify;
 }

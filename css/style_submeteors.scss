@@ -16,12 +16,15 @@ body{
     grid-template-rows: 300px;
 }
 
-svg{
-margin-left: 340px;
-margin-top: -450px;
+svg {
+margin-left: 300px;
+margin-top: -350px;
 width: 150%;
 }
 
+#meteoroid{
+    width: 180%;
+}
 
 
 .picturebox{
@@ -34,7 +37,7 @@ width: 150%;
     border-bottom: solid;
 }
 
-.asteroidtext {
+.meteortext{
     margin: 10px 20px;
     text-align: justify;
 }
