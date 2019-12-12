@@ -417,7 +417,7 @@ main {
   text-shadow: 1.5px 1.5px #be6b4d;
   color: #fff;
   width: 70%;
-  height: 800px;
+  height: 750px;
   display: -ms-grid;
   display: grid;
   border-radius: 25px;
@@ -792,8 +792,8 @@ h3 {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 60px 40px 40px 130px 60px 40px 40px 130px 60px 60px 40px 40px;
-      grid-template-rows: 60px 40px 40px 130px 60px 40px 40px 130px 60px 60px 40px 40px;
+  -ms-grid-rows: 60px 40px 40px 130px 60px 40px 40px 130px 60px 40px 40px 40px;
+      grid-template-rows: 60px 40px 40px 130px 60px 40px 40px 130px 60px 40px 40px 40px;
 }
 
 .category {
