@@ -780,39 +780,4 @@ h2 {
   font-size: 18px;
   text-align: center;
 }
-
-.home {
-  margin-top: -400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.truestar {
-  width: 400px;
-  height: 500px;
-  background-color: #fff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.truestar:hover {
-  padding-left: 200px;
-}
-
-.falsestar {
-  width: 400px;
-  height: 500px;
-  background-color: black;
-  color: #fff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.falsestar:hover {
-  padding-right: 200px;
-}
 /*# sourceMappingURL=style_home.css.map */
