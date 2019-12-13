@@ -9,11 +9,10 @@
 }
 
 .container{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(0deg, #0b74cb 0%, ob74cb 50%, #fff 50%, #fff 100%);
+
 }
 
 .contain{

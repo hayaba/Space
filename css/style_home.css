@@ -789,18 +789,14 @@ h2 {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#0b74cb), color-stop(50%, ob74cb), color-stop(50%, #fff), to(#fff));
-  background: linear-gradient(0deg, #0b74cb 0%, ob74cb 50%, #fff 50%, #fff 100%);
 }
 
 .contain {

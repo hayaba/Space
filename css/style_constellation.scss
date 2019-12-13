@@ -3,35 +3,17 @@
 @import './signs';
 @import './variables';
 
-.section_c{
-  background-image: url(../svg/astroitsbeltp.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 900px;
+
+
+.container{
   display: grid;
-  grid-template-rows: 180px 600px;
-  margin-top: -50px;
-  justify-items: center;
+  grid-template-rows: 40px;
 }
 
-#textbox_c {
-  margin-top: 100px;
-  background-color: rgba(#000000, 0.4);
-  width: 1200px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  border-radius: 20px;
-}
-
-.contain{
+.content{
   display: grid;
-  grid-template-columns: 700px 1fr;
+  grid-template-columns: 2fr 1fr;
 }
-
 
 .container_c{
   margin-top: 30px;
@@ -51,7 +33,7 @@
   background-color: rgba(#000000, 0.4);
   text-shadow: 1.5px 1.5px $second;
   color: #fff;
-  width: 475px;
+  width: 430px;
   height: 570px;
   border-radius: 25px;
   overflow: scroll;
