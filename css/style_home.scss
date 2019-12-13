@@ -15,6 +15,13 @@
 
 }
 
+img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 .contain{
     max-width: 1000px;
     position: relative;
@@ -26,9 +33,9 @@
 
 .contain .card{
     position: relative;
-    width: 180px;
-    height: 240px;
-    background: #fff;
+    width: 140px;
+    height: 200px;
+    background: rgba(#000000, 0.6);
     margin: 0 10px;
     display: flex;
     justify-content: center;
@@ -57,16 +64,15 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
-    font-size: 3em;
     background: $second;
-    color: #fff;
+    color: orange;
     text-align: center;
     border-radius: 50%;
     transition: box-shadow 0.5s;
 }
 
 .contain .card:hover h3{
-    background: #fff;
+    background: rgba(#000000, 0.4);
     color: $second;
     box-shadow: 0 0 0 150px $second;
 }

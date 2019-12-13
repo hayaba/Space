@@ -274,6 +274,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 16;
+  text-align: center;
+}
+
 body {
   margin: 0;
 }
@@ -781,6 +786,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 16;
+  text-align: center;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
@@ -798,7 +808,7 @@ h2 {
 
 .content {
   background-color: rgba(33, 33, 33, 0.699);
-  height: 80px;
+  height: 70px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr 3fr 2fr;
