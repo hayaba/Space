@@ -780,4 +780,103 @@ h2 {
   font-size: 18px;
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0b74cb), color-stop(50%, ob74cb), color-stop(50%, #fff), to(#fff));
+  background: linear-gradient(0deg, #0b74cb 0%, ob74cb 50%, #fff 50%, #fff 100%);
+}
+
+.contain {
+  max-width: 1000px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.contain .card {
+  position: relative;
+  width: 180px;
+  height: 240px;
+  background: #fff;
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.contain:hover .card {
+  -webkit-transform: perspective(500px) rotateY(30deg);
+          transform: perspective(500px) rotateY(30deg);
+}
+
+.contain .card:hover {
+  -webkit-transform: perspective(500px) rotateY(0deg);
+          transform: perspective(500px) rotateY(0deg);
+}
+
+.contain .card:hover ~ .card {
+  -webkit-transform: perspective(500px) rotateY(-30deg);
+          transform: perspective(500px) rotateY(-30deg);
+}
+
+.contain .card h3 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 3em;
+  background: #be6b4d;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.contain .card:hover h3 {
+  background: #fff;
+  color: #be6b4d;
+  -webkit-box-shadow: 0 0 0 150px #be6b4d;
+          box-shadow: 0 0 0 150px #be6b4d;
+}
 /*# sourceMappingURL=style_home.css.map */
