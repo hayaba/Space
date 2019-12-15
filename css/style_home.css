@@ -828,12 +828,13 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-grid-rows: 550px;
-      grid-template-rows: 550px;
+  -ms-grid-rows: 80px 250px 600px;
+      grid-template-rows: 80px 250px 600px;
 }
 
 #slider {
   overflow: hidden;
+  border-style: solid;
 }
 
 #slider figure {

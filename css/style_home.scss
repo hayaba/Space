@@ -12,15 +12,17 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-rows: 550px;
+    grid-template-rows: 80px 250px 600px;
 
 
 }
 
 #slider{
     overflow: hidden;
+    border-style: solid;
 
 }
+
 
 #slider figure{
     position: relative;
@@ -30,10 +32,12 @@
     animation: 20s slider infinite;
 }
 
+
 #slider figure img{
     float: left;
     width: 20%;
 }
+
 
 img{
     width: 50%;
@@ -97,7 +101,7 @@ img{
     box-shadow: 0 0 0 150px $second;
 }
 
-@keyframes slider{
+@keyframes slider {
     0%{
         left: 0;
     }
