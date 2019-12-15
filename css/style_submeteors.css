@@ -490,6 +490,12 @@ a {
   margin-left: 0px;
 }
 
+@media only screen and (max-width: 50%) {
+  .background {
+    width: 100%;
+  }
+}
+
 @-webkit-keyframes move-twink-back {
   from {
     background-position: 0 0;
