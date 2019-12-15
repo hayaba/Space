@@ -12,7 +12,27 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-rows: 550px;
 
+
+}
+
+#slider{
+    overflow: hidden;
+
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
 }
 
 img{
@@ -75,4 +95,42 @@ img{
     background: rgba(#000000, 0.4);
     color: $second;
     box-shadow: 0 0 0 150px $second;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%;
+    }
 }
