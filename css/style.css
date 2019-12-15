@@ -336,6 +336,11 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  font-size: 18;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
