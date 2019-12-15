@@ -842,32 +842,186 @@ svg {
   height: 200px;
 }
 
-.meteoroid {
-  display: none;
-}
-
-.tekst:hover ~ .rock {
+.text1:hover ~ .rock {
   -webkit-animation: shake 2s;
           animation: shake 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
-.rock:hover ~ .meteoroid {
-  display: block;
+.text2:hover ~ .meteoroid {
+  -webkit-animation: fade-in-move-down 0.7s;
+          animation: fade-in-move-down 0.7s;
 }
 
-#Meteorite_on_Earth {
+.text3:hover ~ .meteor {
+  -webkit-animation: fade-in-move-right 3s;
+          animation: fade-in-move-right 3s;
+}
+
+.smallrock {
+  -webkit-animation: fade-in-move-up 9s infinite;
+          animation: fade-in-move-up 9s infinite;
+}
+
+.text5:hover ~ .crashing {
+  display: block;
+  -webkit-animation: fade-in-move-down-left 0.7s;
+          animation: fade-in-move-down-left 0.7s;
+}
+
+.crashing {
   display: none;
 }
 
-#earth_green:hover ~ #Meteorite_on_Earth {
-  display: block;
+.destruction {
+  opacity: 0;
 }
 
-#meteorite {
-  -webkit-animation: move 5s infinite;
-          animation: move 5s infinite;
+.text5:hover ~ .destruction {
+  opacity: 1;
+}
+
+.text6:hover ~ .ice {
+  -webkit-animation: fade-in-move-down 3s;
+          animation: fade-in-move-down 3s;
+}
+
+.text7:hover ~ .rotation {
+  -webkit-animation: spin1 2s;
+          animation: spin1 2s;
+}
+
+@-webkit-keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fade-in-move-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-3rem);
+            transform: translateX(-3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-move-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-3rem);
+            transform: translateX(-3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fade-in-move-up {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(-0.1rem);
+            transform: translateX(-0.1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(-0.4rem);
+            transform: translateX(-0.4rem);
+  }
+}
+
+@keyframes fade-in-move-up {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(-0.1rem);
+            transform: translateX(-0.1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(-0.4rem);
+            transform: translateX(-0.4rem);
+  }
+}
+
+@-webkit-keyframes fade-in-move-down-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(3rem);
+            transform: translateX(3rem);
+  }
+  50% {
+    opacity: 1;
+    ransform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+
+@keyframes fade-in-move-down-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(3rem);
+            transform: translateX(3rem);
+  }
+  50% {
+    opacity: 1;
+    ransform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
 }
 
 @-webkit-keyframes shake {
@@ -961,24 +1115,6 @@ svg {
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
             transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
-
-@-webkit-keyframes move {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 200px;
-  }
-}
-
-@keyframes move {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 200px;
   }
 }
 /*# sourceMappingURL=style_meteors.css.map */

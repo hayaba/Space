@@ -21,33 +21,116 @@ svg{
     height: 200px;
 }
 
-
-.meteoroid{
-    display: none;
-}
-
-.tekst:hover ~ .rock{
+.text1:hover ~ .rock{
     animation: shake 2s;
     animation-iteration-count: infinite;
 }
 
-.rock:hover ~ .meteoroid {
-    display: block;
+.text2:hover ~ .meteoroid {
+    animation: fade-in-move-down 0.7s;
+  }
+  
+.text3:hover ~ .meteor {
+    animation: fade-in-move-right 3s;
 }
 
+.smallrock{
+    animation: fade-in-move-up 9s infinite;
+}
 
-#Meteorite_on_Earth {
+.text5:hover ~ .crashing{
+    display: block;
+    animation: fade-in-move-down-left 0.7s;
+}
+
+.crashing{
     display: none;
 }
 
-#earth_green:hover ~ #Meteorite_on_Earth {
-    display: block;
+.destruction{
+    opacity: 0;
+  
+}
+
+.text5:hover ~ .destruction{
+    opacity: 1;   
+}
+
+.text6:hover ~ .ice{
+    animation: fade-in-move-down 3s;
+    
+}
+
+.text7:hover ~ .rotation{
+    animation: spin1 2s;
+
 }
 
 
-#meteorite{
-    animation: move 5s infinite;
+  
+@keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
+
+
+@keyframes fade-in-move-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+@keyframes fade-in-move-up {
+    0% {
+      opacity: 1;
+      transform: translateX(-0.1rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+
+    0% {
+        opacity: 1;
+        transform: translateX(-0.4rem);
+    }
+}
+
+@keyframes fade-in-move-down-left {
+    0% {
+      opacity: 0;
+      transform: translateX(3rem);
+    }
+
+    50%{
+        opacity: 1;
+        ransform: translateY(1rem);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0rem);
+    }
+}
+
+
+
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -61,9 +144,4 @@ svg{
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-@keyframes move {
-    from {left: 0px;}
-    to {left: 200px;}
 }
