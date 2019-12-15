@@ -282,6 +282,12 @@ h3 {
   font-family: 'Sulphur Point', sans-serif;
 }
 
+h4 {
+  font-size: 16;
+  font-family: 'Sulphur Point', sans-serif;
+  text-align: center;
+}
+
 body {
   margin: 0;
 }
@@ -1025,6 +1031,12 @@ h3 {
   font-family: 'Sulphur Point', sans-serif;
 }
 
+h4 {
+  font-size: 16;
+  font-family: 'Sulphur Point', sans-serif;
+  text-align: center;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
@@ -1035,18 +1047,17 @@ h3 {
 .content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 30px;
 }
 
 .container_c {
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  width: 550px;
+  width: 100%;
   height: 600px;
   display: -ms-grid;
   display: grid;
@@ -1061,7 +1072,7 @@ h3 {
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  width: 430px;
+  width: 100%;
   height: 570px;
   border-radius: 25px;
   overflow: scroll;

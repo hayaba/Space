@@ -10,9 +10,9 @@
 
 .container{
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    grid-template-rows: 80px 250px 600px 20px;
+    grid-template-rows: 80px 290px 600px 20px;
 
 
 }
@@ -84,7 +84,7 @@ img{
     transform: perspective(500px) rotateY(-30deg);
 }
 
-.contain .card h3{
+.contain .card h4{
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -95,7 +95,7 @@ img{
     transition: box-shadow 0.5s;
 }
 
-.contain .card:hover h3{
+.contain .card:hover h4{
     background: rgba(#000000, 0.4);
     color: $second;
     box-shadow: 0 0 0 150px $second;

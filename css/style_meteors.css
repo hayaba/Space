@@ -282,6 +282,12 @@ h3 {
   font-family: 'Sulphur Point', sans-serif;
 }
 
+h4 {
+  font-size: 16;
+  font-family: 'Sulphur Point', sans-serif;
+  text-align: center;
+}
+
 body {
   margin: 0;
 }
@@ -816,6 +822,12 @@ h3 {
   font-family: 'Sulphur Point', sans-serif;
 }
 
+h4 {
+  font-size: 16;
+  font-family: 'Sulphur Point', sans-serif;
+  text-align: center;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -832,10 +844,6 @@ h3 {
 
 svg {
   width: auto;
-}
-
-.tekst:hover {
-  fill: #be6b4d;
 }
 
 .description {
