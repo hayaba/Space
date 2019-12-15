@@ -828,8 +828,8 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-grid-rows: 80px 250px 600px;
-      grid-template-rows: 80px 250px 600px;
+  -ms-grid-rows: 80px 250px 600px 20px;
+      grid-template-rows: 80px 250px 600px 20px;
 }
 
 #slider {
@@ -852,7 +852,6 @@ h3 {
 }
 
 img {
-  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
