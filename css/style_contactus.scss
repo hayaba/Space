@@ -8,15 +8,17 @@
 
 .content{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1.5fr 2fr;
   }
   
 
-#question{
-    background-image: url(../img/question.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 10px;   
+.about{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+
 }
 
 * {

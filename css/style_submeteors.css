@@ -428,19 +428,35 @@ main {
 footer {
   position: relative;
   width: 100%;
-  height: 140px;
+  height: 300px;
   background-image: -webkit-gradient(linear, left top, right top, from(#9d6a49), color-stop(#bdaca8), to(#252530));
   background-image: linear-gradient(to right, #9d6a49, #bdaca8, #252530);
   -webkit-box-shadow: 10px 10px 10px 10px;
           box-shadow: 10px 10px 10px 10px;
   overflow: hidden;
   font-family: 'Sulphur Point', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+}
+
+.explore {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px 20px 20px 20px 20px 20px 50px 20px 20px;
+      grid-template-rows: 50px 20px 20px 20px 20px 20px 50px 20px 20px;
+}
+
+.links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px 20px 20px 20px 20px 20px;
+      grid-template-rows: 50px 20px 20px 20px 20px 20px;
+}
+
+.titel {
+  margin-top: 30px;
 }
 
 .contactus {
@@ -461,20 +477,6 @@ a {
       grid-template-columns: 900px 100px 100px 100px 100px 100px;
   line-height: 80px;
   margin-left: 0px;
-}
-
-.links {
-  margin-left: 50px;
-  font-size: 40px;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
-}
-
-.links:hover {
-  -webkit-filter: grayscale(100%) brightness(70%) contrast(0.9);
-          filter: grayscale(100%) brightness(70%) contrast(0.9);
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 @-webkit-keyframes move-twink-back {
