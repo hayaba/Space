@@ -15,22 +15,8 @@ header {
     align-items: center;
 }
 
-.logo {
-    width: 150px;
-    display: flex;
-    box-sizing: border-box;
-    padding: 0 0 0 30px;
-    transition: 0.7s ease; 
-    
-}
-
-#logo:hover {
-    font-size: 2.3em;
-}
-
 a , a:visited {
     color: #ededed;
-    text-shadow: 1px 1px 1px rgb(0, 1, 2);
 }
 
 a:hover{
@@ -89,6 +75,15 @@ nav ul li ul li a {
     width: 100px;
     padding: 7px 40px 10px 7px;
 }
+
+.logo {
+    width: 140px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 0 0 30px;
+    transition: 0.7s ease; 
+}
+
 main {
     background-color: #1e1e27;
 }
@@ -113,12 +108,10 @@ main {
     justify-content: center;
     color: #fff;
     border-radius: 20px;
-
 }
 
 .container{
     background-color: rgba(#000000, 0.2);
-    text-shadow: 1.5px 1.5px $second;
     color: #fff;
     width: 70%;
     height: 750px;
@@ -126,15 +119,28 @@ main {
     border-radius: 25px;
     padding: 80px 30px 30px 30px;
     overflow: scroll;
+    text-align: justify;
 }
 
 footer{
     position:relative;
     width: 100%;
-    height: 200px;
+    height: 140px;
     background-image: linear-gradient(to right, #9d6a49, #bdaca8, #252530);
     box-shadow: 10px 10px 10px 10px;
     overflow: hidden;
+    font-family: 'Sulphur Point', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .social{
@@ -144,7 +150,6 @@ footer{
     grid-template-columns: 900px 100px 100px 100px 100px 100px;
     line-height: 80px;
     margin-left: 0px;
-
 }
 
 .links{

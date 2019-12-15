@@ -260,23 +260,27 @@
 
 p {
   font-size: 16px;
-  color: white;
+  color: #ffffff;
+  font-family: 'Sulphur Point', sans-serif;
 }
 
 h1 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Sulphur Point', sans-serif;
 }
 
 h2 {
   font-size: 18px;
   text-align: center;
+  font-family: 'Sulphur Point', sans-serif;
 }
 
 h3 {
   font-size: 16;
   text-align: center;
+  font-family: 'Sulphur Point', sans-serif;
 }
 
 body {
@@ -296,25 +300,8 @@ header {
           align-items: center;
 }
 
-.logo {
-  width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 0 0 30px;
-  -webkit-transition: 0.7s ease;
-  transition: 0.7s ease;
-}
-
-#logo:hover {
-  font-size: 2.3em;
-}
-
 a, a:visited {
   color: #ededed;
-  text-shadow: 1px 1px 1px #000102;
 }
 
 a:hover {
@@ -380,6 +367,18 @@ nav ul li ul li a {
   padding: 7px 40px 10px 7px;
 }
 
+.logo {
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0 0 30px;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
 main {
   background-color: #1e1e27;
 }
@@ -415,7 +414,6 @@ main {
 
 .container {
   background-color: rgba(0, 0, 0, 0.2);
-  text-shadow: 1.5px 1.5px #be6b4d;
   color: #fff;
   width: 70%;
   height: 750px;
@@ -424,17 +422,34 @@ main {
   border-radius: 25px;
   padding: 80px 30px 30px 30px;
   overflow: scroll;
+  text-align: justify;
 }
 
 footer {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 140px;
   background-image: -webkit-gradient(linear, left top, right top, from(#9d6a49), color-stop(#bdaca8), to(#252530));
   background-image: linear-gradient(to right, #9d6a49, #bdaca8, #252530);
   -webkit-box-shadow: 10px 10px 10px 10px;
           box-shadow: 10px 10px 10px 10px;
   overflow: hidden;
+  font-family: 'Sulphur Point', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactus {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .social {
